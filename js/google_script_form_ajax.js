@@ -11,6 +11,5 @@ $('#submit-form').on('click', function(e) {
   }).success(
     function () {
 
-        console.log("Successful";
-  );
+        console.log("Successful");
 })
