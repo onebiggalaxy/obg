@@ -9,7 +9,9 @@ $('#submit-form').on('click', function(e) {
     dataType: "json",
     data: $form.serializeObject()
   }).success(
-    function () {
+    function (rooms) {
 
-        console.log("Successful");
+        console.log("successfully run ajax request..." + rooms);
+
+    })
 })
