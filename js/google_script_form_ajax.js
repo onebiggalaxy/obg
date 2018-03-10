@@ -10,7 +10,7 @@ $('#submit-form').on('click', function(e) {
     data: $form.serializeObject()
   }).success(
     function() {
-         console.log("Hello world")
+         window.location.href="http://www.google.com"
       }
   );
 })
