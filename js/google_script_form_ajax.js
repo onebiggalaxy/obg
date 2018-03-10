@@ -9,6 +9,8 @@ $('#submit-form').on('click', function(e) {
     dataType: "json",
     data: $form.serializeObject()
   }).success(
-    console.log("Hello World");
+    function() {
+         console.log("Hello world); 
+      }
   );
 })
