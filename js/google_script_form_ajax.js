@@ -10,7 +10,7 @@ $('#submit-form').on('click', function(e) {
     data: $form.serializeObject()
   }).success(
     function() {
-         return console.log("Hello world); 
+         
       }
   );
 })
