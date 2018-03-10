@@ -11,7 +11,7 @@ $('#submit-form').on('click', function(e) {
     success: function() {
          window.location.href="http://www.google.com"
       }
-})
+});
   }
 
 
