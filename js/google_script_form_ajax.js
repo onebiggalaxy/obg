@@ -7,10 +7,11 @@ $('#submit-form').on('click', function(e) {
     url: url,
     method: "GET",
     dataType: "json",
-    data: $form.serializeObject()
-  }).success(
-    function() {
+    data: $form.serializeObject(),
+    success: function() {
          window.location.href="http://www.google.com"
       }
-  );
 })
+  }
+
+
