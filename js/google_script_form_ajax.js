@@ -12,6 +12,6 @@ $('#submit-form').on('click', function(e) {
          window.location.href="http://www.google.com"
       }
 });
-  }
+  })
 
 
