@@ -475,6 +475,10 @@ footer li {
     .carousel-box {
         width: auto;
     }
+	
+        nav img {
+    width: 110px;
+}
     
     
 
